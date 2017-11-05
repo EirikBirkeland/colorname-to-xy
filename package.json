@@ -1,0 +1,35 @@
+{
+  "name": "colorname-to-xy",
+  "version": "0.0.1",
+  "description": "Converts a colorname to xy coordinates in CIE color space",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EirikBirkeland/colorname-to-xy.git"
+  },
+  "keywords": [
+    "colorname",
+    "color name",
+    "color",
+    "xy",
+    "philips",
+    "hue"
+  ],
+  "author": "Eirik Birkeland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EirikBirkeland/colorname-to-xy/issues"
+  },
+  "homepage": "https://github.com/EirikBirkeland/colorname-to-xy#readme",
+  "dependencies": {
+    "@q42philips/hue-color-converter": "^1.0.0",
+    "colornames": "^1.1.1",
+    "hex-rgb": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  }
+}
